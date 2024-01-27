@@ -1,0 +1,202 @@
+body {
+    margin: 0 0;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+nav {
+    background-color:darkorchid;
+    color:seashell;
+    position:fixed;
+    width:100%;
+    height: 45px;
+    top:0;
+    font-size: large;
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-color:rgb(98, 0, 98);
+    border-bottom-style: solid;
+}
+footer {
+    background-color:darkorchid;
+    color:seashell;
+    width:100%;
+    bottom:0;
+    position:fixed;
+    border-color:rgb(98, 0, 98);
+    border-top-style: solid;
+}
+.navbar {
+    margin: 0 0;
+}
+a {
+    color:seashell;
+    text-decoration: none;
+}
+a:hover {
+    color:cornflowerblue;
+}
+.navbar a {
+    font-family: 'Titillium Web', sans-serif;
+    margin-right:10px;
+}
+footer a {
+    font-family: 'Titillium Web', sans-serif;
+    margin-left:10px;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color:rgb(196, 120, 215);
+    color: seashell;
+}
+section.intro {
+    color:rgb(189, 90, 213);
+    background-color:rgb(245, 187, 247);
+    padding-top:5px;
+}
+h1.intro {
+    font-size: 80px;
+    font-family: 'Amatic SC', sans-serif;
+    z-index: 1;
+}
+h1 {
+    margin-top: 60px;
+}
+h2.intro {
+    font-size: 50px;
+    font-family: 'Amatic SC', sans-serif;
+    z-index: 1;
+}
+.intro {
+    text-align: center;
+}
+.leftcircuit {
+    position:absolute;
+    right:80%;
+    top:160px;
+    height: 535px;
+    width: 250px;
+}
+.rightcircuit {
+    position:absolute;
+    left:80%;
+    top:160px;
+    height: 535px;
+    width: 250px;
+}
+hr {
+    height:6px;
+    background:darkorchid;
+    border: none;
+    margin: 0 0;
+    border-color: rgb(98, 0, 98);
+    border-top-style:solid;
+    border-bottom-style:solid;
+}
+nav a {
+    padding: 0px 5px;
+    border-radius: 15px;
+    border-color: seashell;
+    border-style:solid;
+}
+.text {
+    font-family: 'Zen Maru Gothic', serif;
+}
+p.contact-text {
+    margin-left: 8px;
+    font-family: 'Zen Maru Gothic', serif;
+}
+h1.contact-text {
+    margin-left: 5px;
+    font-family: 'Old Standard TT', serif;
+}
+.header {
+    font-family: 'Old Standard TT', serif;
+    color:seashell;
+}
+.about h2 {
+    font-size: 28px;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.three-col img {
+    width: 100%;
+    margin-top: 0px;
+    height: 190px;
+    border-radius: 10px;
+}
+form {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.input, .input-image {
+    margin: 5px;
+    width: 300px;
+    margin: 10px auto;
+}
+.input-image {
+    width: 200px;
+}
+textarea {
+    height: 250px;
+}
+.mePhoto {
+    border-radius: 80px;
+    margin-top: 20px;
+    border-color: darkorchid;
+    border-style: inset;
+}
+.three-col h3 {
+    margin-bottom: 5px;
+}
+.three-col {
+    padding-bottom: 40px;
+    margin: 0 40px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(104, 9, 96, 0.4);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: rgb(239, 165, 241);
+    margin: 0 auto;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(104, 9, 96, 0.8);
+}
+.card a:hover {
+    color:cornflowerblue;
+}
+.container {
+    padding: 2px 16px;
+}
+.card ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-position:inside;
+    text-align: left;
+    margin-left:34%;
+    margin-top: 0px;
+}
+.card dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+}
+.card a {
+    color: rgb(189, 90, 213);
+}
+.one-col {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+}
